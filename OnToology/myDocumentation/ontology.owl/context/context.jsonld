@@ -1,0 +1,104 @@
+{
+  "@context" : {
+    "Country" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Country"
+    },
+    "MediumValue" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#MediumValue"
+    },
+    "Recommended" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Recommended"
+    },
+    "reviewDate" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#reviewDate",
+      "@type" : "http://www.w3.org/2001/XMLSchema#dateTime"
+    },
+    "CoupleLeisure" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#CoupleLeisure"
+    },
+    "hasDestination" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#hasDestination",
+      "@type" : "@id"
+    },
+    "label" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#label"
+    },
+    "hasDatePublished" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#hasDatePublished",
+      "@type" : "@id"
+    },
+    "FirstClass" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#FirstClass"
+    },
+    "Business" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Business"
+    },
+    "Date" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Date"
+    },
+    "Traveller" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Traveller"
+    },
+    "hasDateFlight" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#hasDateFlight",
+      "@type" : "@id"
+    },
+    "LowValue" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#LowValue"
+    },
+    "HightValue" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#HightValue"
+    },
+    "Survey" : {
+      "@id" : "http://example.org/ontologyhttp://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Survey"
+    },
+    "FamilyLeisure" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#FamilyLeisure"
+    },
+    "Rating" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Rating"
+    },
+    "Aircraft" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Aircraft"
+    },
+    "SoloTraveller" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#SoloTraveller"
+    },
+    "ratingValue" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#ratingValue",
+      "@type" : "http://www.w3.org/2001/XMLSchema#integer"
+    },
+    "Boeing" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#Boeing"
+    },
+    "AirBus" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#AirBus"
+    },
+    "City" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#City"
+    },
+    "EconomyClass" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#EconomyClass"
+    },
+    "hasOrigin" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#hasOrigin",
+      "@type" : "@id"
+    },
+    "sameAs" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#sameAs"
+    },
+    "comment" : {
+      "@id" : "http://www.w3.org/2000/01/rdf-schema#comment"
+    },
+    "BusinessClass" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#BusinessClass"
+    },
+    "hasCountry" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#hasCountry",
+      "@type" : "@id"
+    },
+    "SeatType" : {
+      "@id" : "http://www.semanticweb.org/emueladquintanaco/ontologies/2024/3/oesa#SeatType"
+    }
+  }
+}
