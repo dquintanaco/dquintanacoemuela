@@ -1,0 +1,26 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "oesa:City" "oesa:Recommended" "oesa:Business" "oesa:AirBus" "oesa:Rating" ":Survey" "oesa:FamilyLeisure" "oesa:HightValue" "oesa:EconomyClass" "oesa:Country" "oesa:SoloTraveller" "oesa:CoupleLeisure" "oesa:FirstClass" "oesa:BusinessClass" "oesa:MediumValue" "oesa:Aircraft" "oesa:Date" "oesa:Boeing" "oesa:LowValue" "oesa:Traveller" "oesa:SeatType" ; /*classes style*/
+	"oesa:AirBus" -> "oesa:Aircraft" [ label = "rdfs:subClassOf" ];
+	"oesa:SeatType" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:Rating" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:FamilyLeisure" -> "oesa:Traveller" [ label = "rdfs:subClassOf" ];
+	"oesa:EconomyClass" -> "oesa:SeatType" [ label = "rdfs:subClassOf" ];
+	"oesa:SoloTraveller" -> "oesa:Traveller" [ label = "rdfs:subClassOf" ];
+	"oesa:Recommended" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:Business" -> "oesa:Traveller" [ label = "rdfs:subClassOf" ];
+	"oesa:CoupleLeisure" -> "oesa:Traveller" [ label = "rdfs:subClassOf" ];
+	"oesa:HightValue" -> "oesa:Rating" [ label = "rdfs:subClassOf" ];
+	"oesa:MediumValue" -> "oesa:Rating" [ label = "rdfs:subClassOf" ];
+	"oesa:Country" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:LowValue" -> "oesa:Rating" [ label = "rdfs:subClassOf" ];
+	"oesa:Traveller" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:City" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:FirstClass" -> "oesa:SeatType" [ label = "rdfs:subClassOf" ];
+	"oesa:Boeing" -> "oesa:Aircraft" [ label = "rdfs:subClassOf" ];
+	"oesa:Date" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:Aircraft" -> ":Survey" [ label = "rdfs:subClassOf" ];
+	"oesa:BusinessClass" -> "oesa:SeatType" [ label = "rdfs:subClassOf" ];
+
+}
