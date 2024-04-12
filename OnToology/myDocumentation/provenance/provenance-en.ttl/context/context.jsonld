@@ -1,0 +1,13 @@
+{
+  "@context" : {
+    "wasAttributedTo" : {
+      "@id" : "http://www.w3.org/ns/prov#wasAttributedTo"
+    },
+    "specializationOf" : {
+      "@id" : "http://www.w3.org/ns/prov#specializationOf"
+    },
+    "Entity" : {
+      "@id" : "http://www.w3.org/ns/prov#Entity"
+    }
+  }
+}
